@@ -4,6 +4,7 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+
 header {
     background: #fff;
     padding: 10px 0;
@@ -75,7 +76,12 @@ section {
 }
 
 .about-us,
-.skills {
+.skills,
+.portfolio,
+.work-process,
+.services,
+.testimonials,
+.contact {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -108,13 +114,21 @@ section {
     border-radius: 5px 0 0 5px;
 }
 
-.work-process,
-.services,
-.testimonials {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
+
+.portfolio-item {
+    width: 23%;
+}
+
+    .portfolio-item img {
+        width: 100%;
+        border-radius: 5px;
+    }
 
 .services-list {
     display: flex;
@@ -140,56 +154,28 @@ section {
     margin: 20px 0;
 }
 
-.portfolio {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.portfolio-items {
+.contact form {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.portfolio-item {
-    width: 23%;
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
 }
 
-    .portfolio-item img {
-        width: 100%;
-        border-radius: 5px;
-    }
-
-.contact {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
+.contact .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-    .contact form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .contact input,
-    .contact textarea {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-    }
-
-    .contact .btn {
-        background: #007bff;
-        color: #fff;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
 
 footer {
     background: #333;
