@@ -75,13 +75,7 @@ section {
     padding: 60px 20px;
 }
 
-.about-us,
-.skills,
-.portfolio,
-.work-process,
-.services,
-.testimonials,
-.contact {
+.about-us, .skills, .portfolio, .work-process, .services, .testimonials, .contact {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -160,8 +154,7 @@ section {
     gap: 10px;
 }
 
-.contact input,
-.contact textarea {
+.contact input, .contact textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
