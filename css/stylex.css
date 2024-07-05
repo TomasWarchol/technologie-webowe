@@ -369,7 +369,10 @@ footer {
             padding-left: 0
         }
 
-
+.parnners {
+    padding-top: 80px;
+    padding-bottom: 50px
+}
     .services .services-list {
         padding-top: 85px;
         padding-bottom: 65px
